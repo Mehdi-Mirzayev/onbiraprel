@@ -1,14 +1,14 @@
 function addInfo() {
-    var name = document.getElementById("txtName").value;
-    var surname = document.getElementById("txtSurname").value;
-    var age = document.getElementById("txtAge").value;
+    let name = document.getElementById("txtName").value;
+    let surname = document.getElementById("txtSurname").value;
+    let age = document.getElementById("txtAge").value;
 
-    var table = document.getElementById("infoTable").getElementsByTagName('tbody')[0];
-    var newRow = table.insertRow(table.rows.length);
+    let table = document.getElementById("infoTable").getElementsByTagName('tbody')[0];
+    let newRow = table.insertRow(table.rows.length);
 
-    var cell1 = newRow.insertCell(0);
-    var cell2 = newRow.insertCell(1);
-    var cell3 = newRow.insertCell(2);
+    let cell1 = newRow.insertCell(0);
+    let cell2 = newRow.insertCell(1);
+    let cell3 = newRow.insertCell(2);
 
     cell1.innerHTML = name;
     cell2.innerHTML = surname;
